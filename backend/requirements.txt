@@ -1,0 +1,14 @@
+fastapi>=0.100.0
+uvicorn>=0.22.0
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
+cryptography>=41.0.0
+numpy
+pillow
+pydantic
+scikit-learn
+matplotlib
+python-multipart
+opencv-python-headless>=4.8.0
+torch
+torchvision

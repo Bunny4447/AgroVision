@@ -1,0 +1,97 @@
+{
+  "accuracy": 100.0,
+  "macro_precision": 100.0,
+  "macro_recall": 100.0,
+  "macro_f1": 100.0,
+  "weighted_precision": 100.0,
+  "weighted_recall": 100.0,
+  "weighted_f1": 100.0,
+  "per_class": {
+    "bacterial_leaf_blight": {
+      "display_name": "Bacterial Leaf Blight",
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "support": 10
+    },
+    "blast": {
+      "display_name": "Rice Blast",
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "support": 10
+    },
+    "brown_spot": {
+      "display_name": "Brown Spot",
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "support": 10
+    },
+    "healthy": {
+      "display_name": "Healthy Leaf",
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "support": 10
+    },
+    "leaf_smut": {
+      "display_name": "Leaf Smut",
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "support": 10
+    }
+  },
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      10
+    ]
+  ],
+  "classes": [
+    "Bacterial Leaf Blight",
+    "Rice Blast",
+    "Brown Spot",
+    "Healthy Leaf",
+    "Leaf Smut"
+  ],
+  "class_keys": [
+    "bacterial_leaf_blight",
+    "blast",
+    "brown_spot",
+    "healthy",
+    "leaf_smut"
+  ]
+}
